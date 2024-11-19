@@ -29,3 +29,15 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
 }
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+}
