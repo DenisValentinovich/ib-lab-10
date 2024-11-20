@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Герой: Человек-Паук</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .hero-container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .hero-container h1 {
+            color: #e74c3c;
+        }
+
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-description {
+            font-size: 18px;
+            margin-top: 15px;
+            color: #333;
+        }
+
+        .hero-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .hero-button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-container">
+        <h1>Человек-Паук</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Spider-Man_Insomniac_Artwork.jpg" alt="Человек-Паук" class="hero-image">
+        <p class="hero-description">
+            Человек-Паук — один из самых популярных супергероев Marvel, наделённый способностью прыгать на огромные расстояния и ловить преступников с помощью своих паутинообразных нитей.
+        </p>
+        <button class="hero-button" onclick="alert('Спайдермен спасает мир!')">Узнать больше</button>
+    </div>
+</body>
+</html>
